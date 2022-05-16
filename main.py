@@ -37,10 +37,11 @@ def success():
         X = np.expand_dims(X,axis=2)
         saved_model = tf.keras.models.load_model('speech_model.h5')
         predictions = saved_model.predict(X)
+        predictions = np.argmax(predictions, axis=1)
         print("the predictions are : ")
         print(predictions)
 
-    #return render_template('success.html',text=text)
+    return render_template('success.html',text=str(predictions))
 
 def noise(data):
     noise_amp = 0.035*np.random.uniform()*np.amax(data)
