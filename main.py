@@ -40,8 +40,12 @@ def success():
         predictions = np.argmax(predictions, axis=1)
         print("the predictions are : ")
         print(predictions)
+        most_frequent_predictions = np.bincount(predictions).argmax()
 
-    return render_template('success.html',text=str(predictions))
+    return render_template('success.html',text=str(most_frequent_predictions))
+
+
+
 
 def noise(data):
     noise_amp = 0.035*np.random.uniform()*np.amax(data)
