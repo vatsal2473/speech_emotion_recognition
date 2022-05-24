@@ -5,11 +5,10 @@
     <title>success</title>
 </head>
 <body>
-<h1>IMAGE TO SPEECH WEB APPLICATION</h1>
-<button>RESULT:</button>
+<h1>SPEECH EMOTION RECOGNNITION</h1>
 
 {% if text %}
-     <center><p1> <b> {{ text }} </b></p1></center>
+     <center><h1> <b>RESULT : {{  text }} </b></h1></center>
 {% else %}
      The extracted text will be displayed here
    {% endif %}
@@ -26,23 +25,10 @@ h1{
   color: #ffffff;
   font-family: Calibri;
 }
-button{
 
-  line-height: 4px;
-  text-align:center;
-  color: #ffffff;
-  font-family: Calibri;
-  width: 200px;
-  height: 40px;
-  margin-top: 30px;
-  margin-left: -40px;
-  border-radius: 4px;
-  border-bottom: 4px solid #117A60;
-  background: #16a085;
-}
 p1{
-  width: 100%;
-  height: 100%;
+  width: 200%;
+  height: 200%;
   text-align: center;
   line-height: 1px;
   color: #ffffff;
