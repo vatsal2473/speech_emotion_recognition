@@ -27,3 +27,8 @@ We have build a speech emotion recognition classifier
 1. Preetish Patel - Combining all the four datasets into single dataframe, Data Visualisation and Exploration, Data augmentation, Feature extraction, Data Preparation
 2. Abhinav Arora - Building a neural network model on preprocessed data, achieving the best accuracy of 60% on 8 classes after a series of experiments
 3. Vatsal Savaliya & Abhinay Pandey - Deploying the saved model on web application using flask and creating a basic design of website using html
+
+## How to run the project on your system ?
+
+* Download the complete code, create a virtual environment the navigate to `bda_project/` folder run the command `pip install -r requirements.txt`.
+* once the requirements are install run the command `python main.py`
