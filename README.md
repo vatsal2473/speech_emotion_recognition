@@ -21,3 +21,9 @@ We have build a speech emotion recognition classifier
 * Ryerson Audio-Visual Database of Emotional Speech and Song (Ravdess)
 * Surrey Audio-Visual Expressed Emotion (Savee)
 * Toronto emotional speech set (Tess)
+
+## Roles of team members
+
+1. Preetish Patel - Combining all the four datasets into single dataframe, Data Visualisation and Exploration, Data augmentation, Feature extraction, Data Preparation
+2. Abhinav Arora - Building a neural network model on preprocessed data, achieving the best accuracy of 60% on 8 classes after a series of experiments
+3. Vatsal Savaliya & Abhinay Pandey - Deploying the saved model on web application using flask and creating a basic design of website using html
