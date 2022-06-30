@@ -1,4 +1,3 @@
-# bda_project
 
 ## Speech Emotion Recognition
 We have build a speech emotion recognition classifier
